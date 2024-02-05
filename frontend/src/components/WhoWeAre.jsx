@@ -10,7 +10,7 @@ const WhoWeAre = () => {
             {
               data[0].who_we_are.slice(0,2).map(element=>(
                 <div className="card" key={element.id}>
-                  <h1 className='heading' style={{fontWeight: "100"}}>{element.number}</h1>
+                  <h1 className='heading' style={{fontWeight: "300"}}>{element.number}</h1>
                   <p>{element.title}</p>
                 </div>
               ))
@@ -24,7 +24,7 @@ const WhoWeAre = () => {
             {
               data[0].who_we_are.slice(2).map(element=>(
                 <div className="card" key={element.id}>
-                  <h1 className='heading' style={{fontWeight: "100"}}>{element.number}</h1>
+                  <h1 className='heading' style={{fontWeight: "300"}}>{element.number}</h1>
                   <p>{element.title}</p>
                 </div>
               ))
